@@ -1,8 +1,8 @@
 export default function() {
 
-  const finishTimer = new Audio("../assets/audio/alarmEnd.mp3")
+  const finishTimer = new Audio("https://github.com/silvapedrodev/timerEdge/raw/main/assets/audio/alarmEnd.mp3")
 
-  const bgAudio = new Audio("../assets/audio/bgAudio.mp3")
+  const bgAudio = new Audio("https://github.com/silvapedrodev/timerEdge/raw/main/assets/audio/bgAudio.mp3")
   bgAudio.loop = true
 
   function timeEnd(){
