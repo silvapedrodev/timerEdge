@@ -10,7 +10,6 @@ export default function() {
   }
 
   function muteAll(){
-    finishTimer.volume = 0;
     bgAudio.volume = 0;
   }
 
